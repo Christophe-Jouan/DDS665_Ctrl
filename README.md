@@ -3,13 +3,14 @@
 
 **A simple tool to monitor and control DDS665 wattmeter**
 
-DDS665 is an compact and affordable energy meter compatible with DIN rails installation.
+DDS665 is a bi-directional compact and affordable energy meter compatible with DIN rails installation.  
+This device can be very useful in case of grid feeding solar plants. 
 Sold on line (ali-xxx or amaz-xxx), it can be purchased with a remote control switch option.
 
 In both cases (with or without switch), it offers a RS485 interface that can communicate with a computer like RPi-zero using a RS485 to TTL adapter.  
 RS485 comms are based on MODBUS-RTU protocol. Comms baud rate, and modbus slave_id can be configured on DDS665 (default to bauds=9600, id=1)
 
-![DDS665 picture](/Docs/DDS665_img1.png)
+![DDS665 picture](/Docs/DDS665_1.png)
 
 
 ## Features
